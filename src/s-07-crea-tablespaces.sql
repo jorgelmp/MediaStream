@@ -77,7 +77,7 @@ alter system set encryption key identified by "systemp";
 alter system set encryption wallet open identified by "systemp";
 
 create tablespace usuarios_bancarios_tbs
-  datafile '/unam-bda/d20/app/oracle/oradata/MASAPROY/usuarios_bancarios01.dbf'
+  datafile '/unam-bda/d19/app/oracle/oradata/MASAPROY/usuarios_bancarios01.dbf'
   size 300M
   autoextend on next 100M maxsize 500M
   encryption using 'aes128' encrypt
@@ -85,27 +85,27 @@ create tablespace usuarios_bancarios_tbs
   segment space management auto;
 
 create tablespace usuarios_datos_tbs
-  datafile '/unam-bda/d21/app/oracle/oradata/MASAPROY/usuarios_datos01.dbf'
+  datafile '/unam-bda/d20/app/oracle/oradata/MASAPROY/usuarios_datos01.dbf'
   size 300M
   autoextend on next 100M maxsize 500M
   extent management local autoallocate
   segment space management auto;
 
 create bigfile tablespace usuarios_historicos_tbs
-  datafile '/unam-bda/d22/app/oracle/oradata/MASAPROY/usuarios_historicos.dbf'
+  datafile '/unam-bda/d21/app/oracle/oradata/MASAPROY/usuarios_historicos.dbf'
   size 3G
   extent management local autoallocate
   segment space management auto;
 
 create tablespace usuarios_indices_tbs
-  datafile '/unam-bda/d23/app/oracle/oradata/MASAPROY/usuarios_indices01.dbf' 
+  datafile '/unam-bda/d22/app/oracle/oradata/MASAPROY/usuarios_indices01.dbf' 
   size 300M
   autoextend on next 100M maxsize 500M
   extent management local autoallocate
   segment space management auto;
 
 create temporary tablespace usuarios_temporales_tbs
-  tempfile '/unam-bda/d24/app/oracle/oradata/MASAPROY/usuarios_temporales01.dbf' 
+  tempfile '/unam-bda/d23/app/oracle/oradata/MASAPROY/usuarios_temporales01.dbf' 
   size 20M 
   autoextend on next 100M maxsize 500M;
 
