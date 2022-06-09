@@ -72,9 +72,9 @@ create temporary tablespace media_temporales_tbs
 --  autoextend on next 100M maxsize 500M
 --  extent management local autoallocate; 
 
---!mkdir -p ${ORACLE_BASE}/${ORACLE_SID}
---alter system set encryption key identified by "systemp"; 
---alter system set encryption wallet open identified by "systemp";
+!mkdir -p ${ORACLE_BASE}/${ORACLE_SID}
+alter system set encryption key identified by "systemp"; 
+alter system set encryption wallet open identified by "systemp";
 
 create tablespace usuarios_bancarios_tbs
   datafile '/unam-bda/d20/app/oracle/oradata/MASAPROY/usuarios_bancarios01.dbf'
