@@ -16,7 +16,7 @@ exception
     dbms_output.put_line('ERROR => ' || SQLERRM);
 end;
 /
-
+/*
 connect ADMIN_MULTIMEDIA/multimedia
 @@carga_inicial/s-11-1-carga-datos.sql
 @@carga_inicial/s-11-2-carga-datos.sql
@@ -33,7 +33,7 @@ connect ADMIN_MULTIMEDIA/multimedia
 @@carga_inicial/s-11-13-carga-datos.sql
 @@carga_inicial/s-11-14-carga-datos.sql
 @@carga_inicial/s-11-15-carga-datos.sql
-
+*/
 connect ADMIN_USUARIOS/usuarios
 @@carga_inicial/s-11-16-carga-datos.sql
 @@carga_inicial/s-11-17-carga-datos.sql
