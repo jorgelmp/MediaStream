@@ -34,6 +34,7 @@ end;
 create user admin_multimedia identified by multimedia 
   default tablespace media_datos_tbs
   temporary tablespace media_temporales_tbs
+  quota unlimited on media_datos_tbs
   quota unlimited on media_contenidos_tbs
   quota unlimited on media_historicos_tbs
   quota unlimited on media_indices_tbs
@@ -52,6 +53,7 @@ end;
 create user admin_usuarios identified by usuarios
   default tablespace usuarios_datos_tbs
   temporary tablespace usuarios_temporales_tbs
+  quota unlimited on usuarios_datos_tbs
   quota unlimited on usuarios_historicos_tbs
   quota unlimited on usuarios_indices_tbs
   --quota unlimited on usuarios_undo_tbs;
