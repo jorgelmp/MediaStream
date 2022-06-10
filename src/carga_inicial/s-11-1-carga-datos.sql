@@ -1,0 +1,10 @@
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (1, 'Y-Solowarm', to_date('2022/04/19', 'YYYY/MM/DD'), 'lvanyatin0', EMPTY_BLOB());
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (2, 'Treeflex', to_date('2021/09/26', 'YYYY/MM/DD'), 'cibberson1', EMPTY_BLOB());
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (3, 'Otcom', to_date('2021/09/18', 'YYYY/MM/DD'), 'tbennike2', EMPTY_BLOB());
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (4, 'Sub-Ex', to_date('2021/02/07', 'YYYY/MM/DD'), 'toconnolly3', EMPTY_BLOB());
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (5, 'Veribet', to_date('2021/03/25', 'YYYY/MM/DD'), 'msnellman4', EMPTY_BLOB());
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (6, 'Viva', to_date('2021/09/26', 'YYYY/MM/DD'), 'cmeconi5', EMPTY_BLOB());
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (7, 'Hatity', to_date('2021/12/01', 'YYYY/MM/DD'), 'rcorrie6', EMPTY_BLOB());
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (8, 'Stringtough', to_date('2021/06/14', 'YYYY/MM/DD'), 'mnealand7', EMPTY_BLOB());
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (9, 'Ventosanzap', to_date('2021/12/13', 'YYYY/MM/DD'), 'tsutherns8', EMPTY_BLOB());
+insert into ALBUM (ALBUM_ID, NOMBRE, FECHA_LANZAMIENTO, ARTISTA, PORTADA) values (10, 'Sonsing', to_date('2021/09/09', 'YYYY/MM/DD'), 'tbaxstar9', EMPTY_BLOB());
