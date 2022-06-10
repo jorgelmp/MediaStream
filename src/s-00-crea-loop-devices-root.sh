@@ -37,6 +37,8 @@ mkdir -p /unam-bda/d13
 # Los loop devices se montaron en los directorios editando /etc/fstab
 
 # Copiar, pegar y descomentar las siguientes líneas en al final de /etc/fstab
+# Reiniciar el sistema operativo para que los loop devices se monten al leer 
+# /etc/fstab o montarlos manual mente con mount -a
 
 #   /unam-bda/disk-images/disk01.img         /unam-bda/d11   auto    loop    0       0
 #   /unam-bda/disk-images/disk02.img         /unam-bda/d12   auto    loop    0       0
