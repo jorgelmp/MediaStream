@@ -1,5 +1,5 @@
 -- @Autores: Jorge Manzanares y Jesús Salazar
--- @Fecha de creación: 01/07/2022
+-- @Fecha de creación: 01/06/2022
 -- @Descripción: Creación de los usuarios de la base de datos
 
 connect sys/systemp as sysdba

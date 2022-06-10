@@ -1,3 +1,7 @@
+-- @Autores: Jorge Manzanares y Jesús Salazar
+-- @Fecha de creación: 05/06/2022
+-- @Descripción: Creación de los objetos del módulo USUARIOS de Media Stream
+
 whenever  sqlerror exit rollback
 
 connect sys/systemp as sysdba

@@ -1,5 +1,5 @@
 -- @Autor: Jorge Manzanares y Jesús Salazar 
--- @Fecha de creación: 01/07/2022
+-- @Fecha de creación: 01/06/2022
 -- @Descripción: Creación de la base de datos del curso
 
 connect sys/hola1234# as sysdba
