@@ -55,7 +55,6 @@ CREATE TABLE TARJETA_CREDITO (
 --  |________________________________|_____________|______________________|
 --  | PLAN_SUSCRIPCION               | TABLE       | USUARIOS_DATOS_TBS   |
 --  | PLAN_SUSCRIPCION_PK            | INDEX       | USUARIOS_INDICES_TBS |
---  | PLAN_SUSCRIPCION_CLAVE_UK      | INDEX       | USUARIOS_INDICES_TBS |
 --  |________________________________|_____________|______________________|
 
 CREATE TABLE PLAN_SUSCRIPCION(
@@ -74,10 +73,6 @@ CREATE TABLE PLAN_SUSCRIPCION(
   )
 ) TABLESPACE USUARIOS_DATOS_TBS
 ;
-
-CREATE UNIQUE INDEX PLAN_SUSCRIPCION_CLAVE_UK 
-ON PLAN_SUSCRIPCION(CLAVE)
-TABLESPACE USUARIOS_INDICES_TBS;
 
 --------------------------------------------------------------------------------
 
