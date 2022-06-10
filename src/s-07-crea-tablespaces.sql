@@ -72,7 +72,7 @@ create temporary tablespace media_temporales_tbs
 --  autoextend on next 100M maxsize 500M
 --  extent management local autoallocate; 
 
-!mkdir -p ${ORACLE_BASE}/${ORACLE_SID}
+!mkdir -p ${ORACLE_BASE}/admin/${ORACLE_SID}/wallet
 alter system set encryption key identified by "systemp"; 
 alter system set encryption wallet open identified by "systemp";
 
