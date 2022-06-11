@@ -1,0 +1,10 @@
+#!/bin/bash
+#  @Autores: Jorge Manzanares y Jesús Salazar
+#  @Fecha de creación: 08/06/2022
+#  @Descripción: ubicación de respaldos en la FRA
+
+connect target "sysbackup@masaproy /systemb as sysbackup"
+run{
+    CONFIGURE CONTROLFILE AUTOBACKUP FORMAT FOR DEVICE TYPE DISK CLEAR;
+    CONFIGURE CHANNEL DEVICE TYPE DISK CLEAR;
+}
