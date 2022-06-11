@@ -1,0 +1,15 @@
+#!/bin/bash
+#  @Autores: Jorge Manzanares y Jesús Salazar
+#  @Fecha de creación: 08/06/2022
+#  @Descripción: Backup nivel 1
+
+connect target "sysbackup@masaproy /systemb as sysbackup"
+
+run{
+    configure channel device type disk
+      format '/unam-bda/d25/backups/backup_masaproy_%U.bkp' maxpiecesize 2G;
+    backup as backupset incremental level 1 cumulative database plus archivelog
+      tag backup_1_1;
+}
+list backup;
+delete obsolete;
