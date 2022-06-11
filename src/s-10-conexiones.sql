@@ -1,6 +1,6 @@
 -- @Autores: Jorge Manzanares y Jesús Salazar
 -- @Fecha de creación: 04/06/2022
--- @Descripción: Creación de los objetos del módulo USUARIOS de Media Stream
+-- @Descripción: Modos de conexión
 
 -- Agrear las siguientes tres entradas en $ORACLE_HOME/network/admin/tnsnames.ora
 --------------------------------------------------------------------------------
