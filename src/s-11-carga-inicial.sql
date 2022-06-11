@@ -1,6 +1,6 @@
 -- @Autores: Jorge Manzanares y Jesús Salazar
 -- @Fecha de creación: 05/06/2022
--- @Descripción: Creación de los objetos del módulo USUARIOS de Media Stream
+-- @Descripción: Carga inicial de datos
 
 whenever  sqlerror exit rollback
 

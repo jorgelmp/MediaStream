@@ -1,6 +1,6 @@
 -- @Autores: Jorge Manzanares y Jesús Salazar 
 -- @Fecha de creación: 31/05/2022
--- @Descripción: Creación de un spfile a partir de un pfile sin una instancia
+-- @Descripción: Activación del modo archivelog
 
 connect sys /systemp as sysdba
 
